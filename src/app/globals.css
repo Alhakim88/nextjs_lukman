@@ -1,6 +1,15 @@
+/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tambahkan CSS global Anda di sini */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 @layer base {
   :root {
